@@ -11,26 +11,44 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
+
 
 The set of variables that were estimated from these signals are: 
 
 mean: Mean value
+
 std: Standard deviation
 
 All variable names were converted to lower case, removed any "-" or "()" character. The "mean" and "std" in the variable name means this is the mean and the standard deviation of the measurements in that experiment.
@@ -38,5 +56,6 @@ All variable names were converted to lower case, removed any "-" or "()" charact
 The "average" word was appended to all of the variable names, when the variables was averaged by subject and activity pairs.
 
 subjectid: unique identification number of any subject in the experiment
+
 activity: activity names
 
